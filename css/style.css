@@ -7,23 +7,24 @@ body{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.task-area {border: 1px solid #ccc;}
+.task-area {margin-top: 2em; border: 1px solid #ccc;}
 .task-tabs {
     position: relative;
     display: flex; border-bottom: 1px solid #ccc;
 }
 .task-tabs>div {padding: 1em;}
 
-
 .task-tabs #under-line {
-    position: absolute; top: 60px; left: 0;
+    position: absolute; top: 45px; left: 0;
     width: 80px; height: 4px;
     padding: 0;
     background: pink;
 }
 
-
 #task-board .task {
-    display: flex; justify-content: space-between;
+    display: flex; 
+    justify-content: space-between;
     padding: 1em;
 }
+
+.task-done {text-decoration: line-through;}
